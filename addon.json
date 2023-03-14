@@ -1,0 +1,6 @@
+{
+	"title": "PhysgunSnap",
+	"type": "ServerContent",
+	"tags": ["fun", "build"],
+	"ignore": [".git", ".vim", ".vscode", ".gitignore"]
+}
