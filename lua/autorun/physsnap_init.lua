@@ -265,7 +265,7 @@ net.Receive("PhysgunSnapPickup", function()
 	end
 end)
 
-hook.Add("PreDrawTranslucentRenderables", "PhysgunSnapping", function(depth, skybox)
+hook.Add("PostDrawTranslucentRenderables", "PhysgunSnapping", function(depth, skybox)
 	if depth or skybox then return end
 	if not (drawGrid or drawAngleSnap) then return end
 	if not IsValid(heldEntity) then
